@@ -10,6 +10,7 @@ environment:
 dependencies:
   args: ^1.6.0
   labcoin_sdk:
+    version: ^0.0.3
     git: https://github.com/LabcoinProject/sdk.git
 
 dev_dependencies:

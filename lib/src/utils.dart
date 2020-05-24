@@ -10,6 +10,7 @@ ArgParser getArgParser() {
       abbr: 'p', defaultsTo: null, help: 'Set a private key to sign blocks');
   parser.addFlag('verbose',
       abbr: 'v', help: 'Shows the current state of the mining proccess');
+  parser.addFlag('help', abbr: 'h', help: 'Print this usage information.');
 
   return parser;
 }
