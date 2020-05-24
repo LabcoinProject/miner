@@ -5,7 +5,7 @@ A proof of work miner for Labcoin
 
 Clone the Repository
 ```bash
-$ git clone
+$ git clone git@github.com:LabcoinProject/miner.git
 ```
 
 Install dependencies
@@ -20,4 +20,9 @@ $ dart2native bin/main.dart -o labminer.exe
 
 // Unix
 $ dart2native bin/main.dart -o labminer
+```
+
+## Help
+```bash
+$ labminer --help
 ```
