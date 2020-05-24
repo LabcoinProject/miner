@@ -1,0 +1,17 @@
+name: labminer
+description: A PoW miner for Labcoin
+version: 0.0.1
+author: Konstantin Ullrich <konstantinullrich12@gmail.com>
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.5.0 <3.0.0'
+
+dependencies:
+  args: ^1.6.0
+  labcoin_sdk:
+    git: https://github.com/LabcoinProject/sdk.git
+
+dev_dependencies:
+  pedantic: ^1.9.0
+  test: ^1.14.5
