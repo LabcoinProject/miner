@@ -5,7 +5,7 @@ A proof of work miner for Labcoin
 
 Clone the Repository
 ```bash
-$ git clone git@github.com:oberlab/miner.git
+$ git clone git@github.com:oberlab/labcoin-miner.git
 ```
 
 Install dependencies
